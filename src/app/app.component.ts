@@ -10,7 +10,7 @@ export class AppComponent {
   public mon = "";
   public counter = 0;
   public monKharap() {
-    if (this.counter < 15) {
+    if (this.counter < 3) {
     this.mon = this.mon + "  >_< আজকে আমার মন ভালো নেই >_<  ";
     this.counter = this.counter + 1;
     }
